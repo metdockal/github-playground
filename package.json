@@ -1,7 +1,7 @@
 {
 	"name": "github-playground",
 	"version": "1.0.0",
-	"description": "",
+	"description": "git playground",
 	"main": "index.js",
 	"scripts": {
 		"test": "jest"
