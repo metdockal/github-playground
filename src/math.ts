@@ -9,3 +9,11 @@ export const sum = (numbers: number[]) => {
 export const areaOfTriangle = (base: number, height: number) => {
 	return 0.5 * base * height;
 };
+
+export const areaOfCircle = (radius: number) => {
+	return Math.PI * Math.pow(radius, 2);
+};
+
+export const circumferenceOfCircle = (radius: number) => {
+	return Math.PI * 4 * radius;
+};
