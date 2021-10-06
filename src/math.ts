@@ -17,3 +17,7 @@ export const areaOfCircle = (radius: number) => {
 export const circumferenceOfCircle = (radius: number) => {
 	return Math.PI * 4 * radius;
 };
+
+export const pythagorean = (sideA: number, sideB: number) => {
+	return Math.sqrt(Math.pow(sideA, 2) + Math.pow(sideB, 2));
+};
