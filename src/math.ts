@@ -5,3 +5,7 @@ export const sum = (numbers: number[]) => {
 	}
 	return sum;
 };
+
+export const areaOfTriangle = (base: number, height: number) => {
+	return 0.5 * base * height;
+};
